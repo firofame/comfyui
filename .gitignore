@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+env/
+
+# Modal
+.modal/
+
+# Operating System
+.DS_Store
+Thumbs.db
+
+# Generated outputs & local weights
+output/
+outputs/
+models/
+*.safetensors
+*.ckpt
+*.pt
+*.bin
+
+# Environment variables
+.env
+.env.local

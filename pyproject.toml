@@ -1,0 +1,10 @@
+[project]
+name = "comfyui"
+version = "0.1.0"
+description = "Minimal, production-ready ComfyUI on Modal with persistent storage and fast cold starts"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "httpx>=0.28.1",
+    "modal>=1.5.0",
+]
